@@ -1,12 +1,24 @@
 {
 
   "scripts": {
-    
+
+    "test": "playwright test --headed --reporter=html,line",
+
     "boostrap": "alita-mcp bootstrap",
+
     "tray-app": "alita-mcp tray",
-    "run-agent":"alita-mcp run --project-id 14403"
+
+    "run-agent": "alita-mcp run --project-id 14403"
+
   },
+
   "dependencies": {
+
+    "@playwright/test": "^1.59.1",
+
     "python3": "^0.0.1"
+
   }
+
 }
+
