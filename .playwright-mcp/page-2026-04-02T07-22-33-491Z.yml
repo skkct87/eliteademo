@@ -1,0 +1,464 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: epam epam
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Depam%26sca_esv%3D8fbe2420859fd63f%26source%3Dhp%26ei%3DKhnOadaQK7CZ4-EP0bTE-Ac%26iflsig%3DAFdpzrgAAAAAac4nOi6PJ4M1L-XT7Q9DedPyKuimxhUj%26ved%3D0ahUKEwjWzY_80M6TAxWwzDgGHVEaEX8Q4dUDCBY%26uact%3D5%26oq%3Depam%26gs_lp%3DEgdnd3Mtd2l6IgRlcGFtSAtQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAJgDAJIHAKAHALIHALgHAMIHAMgHAIAIAA%26sclient%3Dgws-wiz%26sei%3DOhnOaf2SJ8SN4-EPovKBkA8&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "AI Mode" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=epam&sca_esv=8fbe2420859fd63f&udm=50&source=hp&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&aep=1&ntc=1&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ2J8OegQIDRAE
+              - generic [ref=e81]: AI Mode
+          - listitem [ref=e82]:
+            - link "All" [disabled] [ref=e83]:
+              - generic [ref=e85]: All
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=8fbe2420859fd63f&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&q=epam&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQtKgLegQIGBAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "News" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=8fbe2420859fd63f&q=epam&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ0pQJegQIGRAB
+              - generic [ref=e93]: News
+          - listitem [ref=e94]:
+            - link "Shopping" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=8fbe2420859fd63f&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&q=epam&ved=1t:220175&ictx=111
+              - generic [ref=e97]: Shopping
+          - listitem [ref=e98]:
+            - link "Videos" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=8fbe2420859fd63f&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&q=epam&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQtKgLegQIFxAB
+              - generic [ref=e101]: Videos
+          - listitem [ref=e102]:
+            - link "Forums" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=8fbe2420859fd63f&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vMboekt2cKC3pTSxvmRKdBH1tOmdyHeywNECeu_1ugROczUnA3oiJ8N4-osiUwuihjcrotl0uyVn1lnzgCyD8OlPw5htaEB0k-Wz6MoSK0ZIRGIFXIKtabWHAkvqrpExMeiADEjaU2QvrRn6wbWruSkLMoZwsG5EDHsf6JM5xJdVdeMgw&q=epam&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQs6gLegQIFhAB
+              - generic [ref=e105]: Forums
+          - listitem [ref=e106]:
+            - button "More filters" [ref=e107] [cursor=pointer]:
+              - generic "More filters" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: More
+                  - img [ref=e112]
+        - button "Tools" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Tools
+            - img [ref=e120]
+    - heading "Search Results" [level=1] [ref=e122]
+    - generic [ref=e127]:
+      - main [ref=e128]:
+        - generic [ref=e132]:
+          - generic [ref=e135]:
+            - heading "Web result with site links" [level=2] [ref=e136]
+            - generic [ref=e137]:
+              - generic [ref=e141]:
+                - generic [ref=e143]:
+                  - link "EPAM | Software Engineering & Product Development Services EPAM https://www.epam.com" [ref=e145] [cursor=pointer]:
+                    - /url: https://www.epam.com/
+                    - heading "EPAM | Software Engineering & Product Development Services" [level=3] [ref=e146]
+                    - generic [ref=e151]:
+                      - generic [ref=e153]: EPAM
+                      - generic [ref=e155]: https://www.epam.com
+                  - button "About this result" [ref=e156] [cursor=pointer]:
+                    - img [ref=e159]
+                - generic [ref=e162]: Since 1993, we've helped customers digitally transform their businesses through our unique blend of world-class software engineering, design and consulting ...
+              - group "Personalised recommendations based on your history" [ref=e163]:
+                - rowgroup [ref=e164]:
+                  - row "Careers EPAM is always hiring technologists, designers ..." [ref=e165]:
+                    - cell "Careers EPAM is always hiring technologists, designers ..." [ref=e166]:
+                      - generic [ref=e171]:
+                        - heading "Careers" [level=3] [ref=e172]:
+                          - link "Careers" [ref=e173] [cursor=pointer]:
+                            - /url: https://www.epam.com/careers
+                            - text: Careers
+                        - generic [ref=e176]: EPAM is always hiring technologists, designers ...
+                  - row "EPAM Careers EPAM operates in 55+ countries and we are growing our teams ..." [ref=e177]:
+                    - cell "EPAM Careers EPAM operates in 55+ countries and we are growing our teams ..." [ref=e178]:
+                      - generic [ref=e183]:
+                        - heading "EPAM Careers" [level=3] [ref=e184]:
+                          - link "EPAM Careers" [ref=e185] [cursor=pointer]:
+                            - /url: https://www.epam.com/careers/epam-without-borders
+                            - text: EPAM Careers
+                        - generic [ref=e188]: EPAM operates in 55+ countries and we are growing our teams ...
+                  - row "About We can help you reimagine your business through a digital lens ..." [ref=e189]:
+                    - cell "About We can help you reimagine your business through a digital lens ..." [ref=e190]:
+                      - generic [ref=e195]:
+                        - heading "About" [level=3] [ref=e196]:
+                          - link "About" [ref=e197] [cursor=pointer]:
+                            - /url: https://www.epam.com/about
+                            - text: About
+                        - generic [ref=e200]: We can help you reimagine your business through a digital lens ...
+                  - row "Hiring Locations Explore our enterprise software products, open source solutions ..." [ref=e201]:
+                    - cell "Hiring Locations Explore our enterprise software products, open source solutions ..." [ref=e202]:
+                      - generic [ref=e207]:
+                        - heading "Hiring Locations" [level=3] [ref=e208]:
+                          - link "Hiring Locations" [ref=e209] [cursor=pointer]:
+                            - /url: https://www.epam.com/careers/locations
+                            - text: Hiring Locations
+                        - generic [ref=e212]: Explore our enterprise software products, open source solutions ...
+                  - row "Artificial Intelligence EPAM delivers end-to-end AI development services to help ..." [ref=e213]:
+                    - cell "Artificial Intelligence EPAM delivers end-to-end AI development services to help ..." [ref=e214]:
+                      - generic [ref=e219]:
+                        - heading "Artificial Intelligence" [level=3] [ref=e220]:
+                          - link "Artificial Intelligence" [ref=e221] [cursor=pointer]:
+                            - /url: https://www.epam.com/services/artificial-intelligence
+                            - text: Artificial Intelligence
+                        - generic [ref=e224]: EPAM delivers end-to-end AI development services to help ...
+                  - row "More results from epam.com »" [ref=e226]:
+                    - cell "More results from epam.com »" [ref=e227]:
+                      - link "More results from epam.com »" [ref=e229] [cursor=pointer]:
+                        - /url: /search?q=epam+site:epam.com&sca_esv=8fbe2420859fd63f&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQrAN6BAgwEAE
+          - generic [ref=e230]:
+            - generic [ref=e240]:
+              - generic [ref=e242]:
+                - generic [ref=e246]:
+                  - generic [ref=e247]: Headquarters
+                  - link "Newtown, Pennsylvania, United States" [ref=e250] [cursor=pointer]:
+                    - /url: /search?sca_esv=8fbe2420859fd63f&q=Newtown,+Bucks+County,+Pennsylvania&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmrEPic2UUEeay7uOIjL1gWV-mQspk-DjArjOiFfAqSswMnPHY4xJ09ShEqyLxSvYbKEBr6QBOWEjMmTjWLG73Zkb3ubA41xGeZSSs5pvL_HTWSnAFSWYrDWJb8PDnCAK1whm-Y7ZERUl14X4WCllnCefb4hGen8rcJkJgeFs15ZhV9dIjAO_j18UvpNOgKZIMIp3osI%3D&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQmxN6BAgeEAI
+                - generic [ref=e254]:
+                  - generic [ref=e255]: Subsidiaries
+                  - generic [ref=e257]:
+                    - link "NEORIS" [ref=e258] [cursor=pointer]:
+                      - /url: /search?sca_esv=8fbe2420859fd63f&q=NEORIS&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmsy1q1j3HyjYaxtOJYtdosYLdHGFw5mI_-vHVUbwxQr_W8PtzEAJZdMZqBtGV4isFBS8nFErdyNrCzXNVLenXIea_GtBC7BKHUPaMrdiy3uq5u-3kSSjXzuyubvWLmSOOH43qq8ItPJsGCsjEDrW000J5UBqhKXS_LN7-qkG0vnVt-1QvVB6OZOA6sBUOoycVPQDkOEhvzJbOOjMHKNgf3N327B1wclq82oUJh9DWOf2IVU6Cw%3D%3D&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQmxN6BAgfEAI
+                    - text: ","
+                    - link "Empathy Lab, LLC" [ref=e259] [cursor=pointer]:
+                      - /url: /search?sca_esv=8fbe2420859fd63f&q=Empathy+Lab,+LLC&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLne3TqrGto_5qSNz852XJXkbYH-zN-zOe0krqBB0TGXI-P1CHrNEgumNcWS2Uz7A_lusjFemkrg1D30vHke5SF82Owa75OnbhPeSYq7a-9xVAr0D8M0N6T--1yvYh4fiqofM64PDn5bD46_cn28VCmHhS5-JxmcvtoZJE99nArJPDYyN__tIwXXZZrzctkr_JO07PuHs0jSYjisst_af9VHmBTG4QknBZyskSXqVBV1W-8yYXtGHnChiFfZNWSe51E2rHXyk%3D&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQmxN6BAgfEAM
+                    - text: ","
+                    - link "testCloud.de GmbH" [ref=e260] [cursor=pointer]:
+                      - /url: /search?sca_esv=8fbe2420859fd63f&q=testCloud.de+GmbH&si=AL3DRZGNtcdgKOqVhotcr-UG2kkYpwR2WO4qu3O00NmpwBmLndsbskufjXoCIJj59ktQfO3nOFA6MOB42TsVeJxw6fnQJbMlgxQNSS4O2zqP_RQ1Ec5duBrM5dQFMQuOVnCtuIJzJ8Kfl-PDqPmi4NnddjGgYMijdjc8xTPRcQHn3VYeuysVEHXCDzUOFd1ocg5TnN63GphzKHxh-nTxaFs1QpJe9YsM8h5YP2R3w8Nl2uogNKWc2kRx6GkU03ReDOB-2IHbJVW_MUxHjiChPcgXNL5gram7bfkVp3mrKbXFLFmNuU6tX50%3D&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQmxN6BAgfEAQ
+                    - text: ·
+                    - link "See more" [ref=e261] [cursor=pointer]:
+                      - /url: /search?sca_esv=8fbe2420859fd63f&q=epam+systems+subsidiaries&stick=H4sIAAAAAAAAAOPgE-LUz9U3SMnJK0rW0swot9JPzs_JSU0uyczP088vSk_My6xKBHGKrYpLk4ozUzITizJTixexSqYWJOYqFFcWl6TmFisgywEA056O3VQAAAA&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ44YBegQIHxAF
+                      - generic [ref=e262]: See more
+                - generic [ref=e266]:
+                  - generic [ref=e267]: Founder
+                  - link "Arkadiy Dobkin" [ref=e270] [cursor=pointer]:
+                    - /url: /search?sca_esv=8fbe2420859fd63f&q=Arkadiy+Dobkin&si=AL3DRZGDMkmBg1SB5TH8o8Xeh03tgmwpgZCgiYi5BFB_ELNOTKmPNKCByNKTBxn_L0Ootbp7eqqU80G1vSTvX81YNKFFwN9bl4RLRy1Vo_32W8EpJ2vqqUGZWGKtBwSqLWTEDmp76i_KCt4uAEs-gSj5pXx5QPQ4yl6zX9G7AEisitQZKfL_AzoTeCSbBnhCjNS-a_9b1HS46_COBD9ymgHue0TUeeDDAw%3D%3D&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQmxN6BAgkEAI
+                - generic [ref=e274]:
+                  - generic [ref=e275]: Number of employees
+                  - generic [ref=e277]: 62,850+ (FY 2025)
+                - generic [ref=e281]:
+                  - generic [ref=e282]: Founded
+                  - generic [ref=e284]: "1993"
+              - link "Disclaimer" [ref=e289] [cursor=pointer]:
+                - /url: /intl/en_in/googlefinance/disclaimer/?sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ1AF6BAg0EAE
+            - generic [ref=e295]:
+              - heading "Profiles" [level=3] [ref=e298]
+              - generic [ref=e300]:
+                - link "EPAM Systems LinkedIn" [ref=e304] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/epam-systems
+                  - generic [ref=e305]:
+                    - generic "EPAM Systems" [ref=e307]
+                    - generic [ref=e310]: LinkedIn
+                - link "EPAM Systems X (Twitter)" [ref=e314] [cursor=pointer]:
+                  - /url: https://twitter.com/epam_belarus
+                  - generic [ref=e315]:
+                    - generic "EPAM Systems" [ref=e317]
+                    - generic [ref=e320]: X (Twitter)
+                - link "EPAM Systems Facebook" [ref=e324] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Epam.Hungary/
+                  - generic [ref=e325]:
+                    - generic "EPAM Systems" [ref=e327]
+                    - generic [ref=e330]: Facebook
+            - generic [ref=e333]:
+              - heading "People also search for" [level=3] [ref=e335]
+              - generic [ref=e340]:
+                - list [ref=e341]:
+                  - listitem [ref=e343]:
+                    - generic [ref=e344]:
+                      - link "Globant":
+                        - /url: /search?sca_esv=8fbe2420859fd63f&si=AL3DRZELanY_V96Y0q8q1FLKlfOvBdnHgF7jIt9ftVkN5kp-lI3zU4ZlH3s5ATXbQ55CHZRLchjJlkIaFYEtHdwFaRrV9Q3PsFiR5OyjfqtGgIc-m0re20a2fdfrZjX4a1wPrKNtGtQjBfxC0K50mW3bOwMiJY0qUy--zo8qMT9-F9HCbKowP3FYC59FZJkOHOW06lubSQud&q=Globant&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQs9oBKAB6BAgKEAY
+                      - heading [level=3] [ref=e349]:
+                        - generic [ref=e350]: Globant
+                  - listitem [ref=e352]:
+                    - generic [ref=e353]:
+                      - link "SoftServe":
+                        - /url: /search?sca_esv=8fbe2420859fd63f&si=AL3DRZGDMkmBg1SB5TH8o8Xeh03tgmwpgZCgiYi5BFB_ELNOTBMkWCIXXVGi0-VeHUMZVQH95Ex-ZxeEkrGiN7NjzvfLH3EuUMd2kpPeUMoC4UedaUEMv1Iuqw_bg0txmGdPFFqLGLQR5JzobQtD3oRMi788SELH-mVvWC6ATq39dVdeQ9p--sf0i1cVrVREVaoGVS6FURHL&q=SoftServe&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQs9oBKAB6BAgKEAo
+                      - heading [level=3] [ref=e358]:
+                        - generic [ref=e359]: SoftServe
+                  - listitem [ref=e361]:
+                    - generic [ref=e362]:
+                      - link "Cognizant":
+                        - /url: /search?sca_esv=8fbe2420859fd63f&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jml6zbD2qanG1jrdu4tbhhl1pa9xGxYOR1vCiI-F1yMJXoRe782FJ_Fre1G14AlJkaNPtlOa-jVZgfxAgLUSBNIWtLNcHfA33lyvnKihwEf3HCYXsTbOJtRYmFMPNKRx5OogbDOahc7bdYxmMQSP1kEDFJult&q=Cognizant&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQs9oBKAB6BAgKEA4
+                      - heading [level=3] [ref=e367]:
+                        - generic [ref=e368]: Cognizant
+                  - listitem [ref=e370]:
+                    - generic [ref=e371]:
+                      - link "Infosys":
+                        - /url: /search?sca_esv=8fbe2420859fd63f&si=AL3DRZEaipurC9pse1xO2aCwuJWfKA_Njx1c7Qs8ap9rx81jmhokxmhJvVQRqFiJBeRHL2YD4dVLeZySKdPtMtivmRHyrnqO9IjKfFREdoyisY0hHmvK_wGAqfKZnv0dxocz5_JefcuFnOB8Psw5rWXbOvVm5xbrgw_BleIn3I_bxmT2rsMW99xET-PGto6bvynH5Gw6fyfC&q=Infosys&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQs9oBKAB6BAgKEBI
+                      - heading [level=3] [ref=e376]:
+                        - generic [ref=e377]: Infosys
+                - link "See more" [ref=e379] [cursor=pointer]:
+                  - /url: /search?sca_esv=8fbe2420859fd63f&q=EPAM+Systems&stick=H4sIAAAAAAAAAONgFuLUz9U3SMnJK0pWQjC1BIMzU1LLEyuL_VIrSoJLUguKfzGKBaTmF-SkKiTmFOcrFKcmFiVnKKTlFy1i5XENcPRVCK4sLknNLb7FJsmwVPk2_7PQjIWxFceeKM9693xaU5_VilTTPAA_Mj36bwAAAA&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQzO0BKAR6BAgKEBQ
+                  - generic [ref=e380]:
+                    - generic [ref=e381]: See more
+                    - img [ref=e383]
+            - generic [ref=e387]:
+              - generic [ref=e388]:
+                - heading "People also ask" [level=2] [ref=e389]
+                - button "About this result" [ref=e390] [cursor=pointer]:
+                  - img [ref=e393]
+              - generic [ref=e395]:
+                - button "Is EPAM a good company to join?" [ref=e401] [cursor=pointer]:
+                  - generic [ref=e403]: Is EPAM a good company to join?
+                  - img [ref=e406]
+                - button "Is EPAM better than tcs?" [ref=e415] [cursor=pointer]:
+                  - generic [ref=e417]: Is EPAM better than tcs?
+                  - img [ref=e420]
+                - button "Is EPAM a big company?" [ref=e429] [cursor=pointer]:
+                  - generic [ref=e431]: Is EPAM a big company?
+                  - img [ref=e434]
+                - button "Is EPAM a Russian company?" [ref=e443] [cursor=pointer]:
+                  - generic [ref=e445]: Is EPAM a Russian company?
+                  - img [ref=e448]
+          - generic [ref=e453]:
+            - heading "Web results" [level=2] [ref=e454]
+            - generic [ref=e455]:
+              - generic [ref=e458]:
+                - link "EPAM Systems LinkedIn · EPAM Systems 28.1L+ followers" [ref=e460] [cursor=pointer]:
+                  - /url: https://in.linkedin.com/company/epam-systems
+                  - heading "EPAM Systems" [level=3] [ref=e461]
+                  - generic [ref=e466]:
+                    - generic [ref=e468]: LinkedIn · EPAM Systems
+                    - generic [ref=e470]: 28.1L+ followers
+                - button "About this result" [ref=e471] [cursor=pointer]:
+                  - img [ref=e474]
+              - generic [ref=e477]:
+                - generic [ref=e478]:
+                  - text: EPAM (NYSE:EPAM) is a
+                  - emphasis [ref=e479]: global leader in AI transformation engineering and integrated consulting
+                  - text: ", serving Forbes Global 2000 companies and ..."
+                - link "Read more" [ref=e480] [cursor=pointer]:
+                  - /url: https://in.linkedin.com/company/epam-systems#:~:text=EPAM%20(NYSE%3AEPAM)%20is%20a%20global,2000%20companies%20and%20ambitious%20startups.
+          - generic [ref=e484]:
+            - generic [ref=e487]:
+              - 'link "EPAM India: Home EPAM India https://welcome.epam.in" [ref=e489] [cursor=pointer]':
+                - /url: https://welcome.epam.in/
+                - 'heading "EPAM India: Home" [level=3] [ref=e490]'
+                - generic [ref=e495]:
+                  - generic [ref=e497]: EPAM India
+                  - generic [ref=e499]: https://welcome.epam.in
+              - button "About this result" [ref=e500] [cursor=pointer]:
+                - img [ref=e503]
+            - generic [ref=e506]:
+              - generic [ref=e507]:
+                - emphasis [ref=e508]: EPAM India
+                - text: has fast grown to be a 10,000+ people organization across five locations. We are part of a global network of advisors, consultants, engineers, ...
+              - link "Read more" [ref=e509] [cursor=pointer]:
+                - /url: https://welcome.epam.in/#:~:text=EPAM%20India%20has%20fast%20grown,network%20of%20advisors%2C%20consultants%2C%20engineers%2C
+          - generic [ref=e513]:
+            - generic [ref=e516]:
+              - link "EPAM Systems Wikipedia https://en.wikipedia.org › wiki › EPAM_Systems" [ref=e518] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/EPAM_Systems
+                - heading "EPAM Systems" [level=3] [ref=e519]
+                - generic [ref=e524]:
+                  - generic [ref=e526]: Wikipedia
+                  - generic [ref=e528]: https://en.wikipedia.org › wiki › EPAM_Systems
+              - button "About this result" [ref=e529] [cursor=pointer]:
+                - img [ref=e532]
+            - generic [ref=e535]:
+              - generic [ref=e536]:
+                - text: EPAM Systems, Inc. is a U.S.-based
+                - emphasis [ref=e537]: global provider of information technology services and consulting
+                - text: . The company provides services in digital engineering, ...
+              - link "Read more" [ref=e538] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/EPAM_Systems#:~:text=EPAM%20Systems%2C%20Inc.%20is%20a,artificial%20intelligence%2C%20and%20software%20development.
+          - generic [ref=e542]:
+            - generic [ref=e545]:
+              - link "Working at EPAM Systems Glassdoor https://www.glassdoor.co.in › Overview › Working-at-..." [ref=e547] [cursor=pointer]:
+                - /url: https://www.glassdoor.co.in/Overview/Working-at-EPAM-Systems-EI_IE15544.11,23.htm
+                - heading "Working at EPAM Systems" [level=3] [ref=e548]
+                - generic [ref=e553]:
+                  - generic [ref=e555]: Glassdoor
+                  - generic [ref=e557]: https://www.glassdoor.co.in › Overview › Working-at-...
+              - button "About this result" [ref=e558] [cursor=pointer]:
+                - img [ref=e561]
+            - generic [ref=e564]:
+              - generic [ref=e565]:
+                - text: Today, EPAM is a
+                - emphasis [ref=e566]: global network of advisors, consultants, engineers, scientists and creatives
+                - text: working together across more than 55 countries and regions. In ...
+              - link "Read more" [ref=e567] [cursor=pointer]:
+                - /url: https://www.glassdoor.co.in/Overview/Working-at-EPAM-Systems-EI_IE15544.11,23.htm#:~:text=Show%20more
+          - generic [ref=e571]:
+            - generic [ref=e574]:
+              - link "EPAM India (@epam_india) • Instagram photos and videos Instagram · epam_india 27.9K+ followers" [ref=e576] [cursor=pointer]:
+                - /url: https://www.instagram.com/epam_india/
+                - heading "EPAM India (@epam_india) • Instagram photos and videos" [level=3] [ref=e577]
+                - generic [ref=e582]:
+                  - generic [ref=e584]: Instagram · epam_india
+                  - generic [ref=e586]: 27.9K+ followers
+              - button "About this result" [ref=e587] [cursor=pointer]:
+                - img [ref=e590]
+            - generic [ref=e593]:
+              - generic [ref=e594]:
+                - text: By delivering solutions through
+                - emphasis [ref=e595]: best-in-class engineering
+                - text: ", we help our customers be faster & adaptive. We serve 280+ Forbes Global 2000 Customers."
+              - link "Read more" [ref=e596] [cursor=pointer]:
+                - /url: https://www.instagram.com/epam_india/#:~:text=By%20delivering%20solutions%20through%20best%2Din%2Dclass,280%2B%20Forbes%20Global%202000%20Customers.
+          - generic [ref=e600]:
+            - generic [ref=e603]:
+              - link "EPAM Global | Newtown PA Facebook · EPAM Global 16.8K+ followers" [ref=e605] [cursor=pointer]:
+                - /url: https://www.facebook.com/EPAM.Global/
+                - heading "EPAM Global | Newtown PA" [level=3] [ref=e606]
+                - generic [ref=e611]:
+                  - generic [ref=e613]: Facebook · EPAM Global
+                  - generic [ref=e615]: 16.8K+ followers
+              - button "About this result" [ref=e616] [cursor=pointer]:
+                - img [ref=e619]
+            - generic [ref=e623]:
+              - emphasis [ref=e624]: EPAM Global, Newtown
+              - text: . 16771 likes · 345 talking about this · 174 were here. Official global page of EPAM Systems Inc. (EPAM), a global leader in AI...
+        - generic [ref=e626]:
+          - generic [ref=e631]:
+            - heading "People also search for" [level=2] [ref=e633]
+            - generic [ref=e635]:
+              - generic [ref=e636]:
+                - link "EPAM Anywhere" [ref=e640] [cursor=pointer]:
+                  - /url: /search?sca_esv=8fbe2420859fd63f&q=EPAM+Anywhere&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ1QJ6BAhFEAE
+                  - generic [ref=e641]:
+                    - generic [ref=e646]: EPAM Anywhere
+                    - img [ref=e650]
+                - link "EPAM full form" [ref=e655] [cursor=pointer]:
+                  - /url: /search?sca_esv=8fbe2420859fd63f&q=EPAM+full+form&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ1QJ6BAhMEAE
+                  - generic [ref=e656]:
+                    - generic [ref=e661]: EPAM full form
+                    - img [ref=e665]
+                - link "EPAM India" [ref=e670] [cursor=pointer]:
+                  - /url: /search?sca_esv=8fbe2420859fd63f&q=EPAM+India&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ1QJ6BAhLEAE
+                  - generic [ref=e671]:
+                    - generic [ref=e676]: EPAM India
+                    - img [ref=e680]
+                - link "EPAM Glassdoor" [ref=e685] [cursor=pointer]:
+                  - /url: /search?sca_esv=8fbe2420859fd63f&q=EPAM+Glassdoor&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ1QJ6BAhKEAE
+                  - generic [ref=e686]:
+                    - generic [ref=e691]: EPAM Glassdoor
+                    - img [ref=e695]
+              - generic [ref=e697]:
+                - link "EPAM headquarters" [ref=e701] [cursor=pointer]:
+                  - /url: /search?sca_esv=8fbe2420859fd63f&q=EPAM+headquarters&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ1QJ6BAhJEAE
+                  - generic [ref=e702]:
+                    - generic [ref=e707]: EPAM headquarters
+                    - img [ref=e711]
+                - link "EPAM wiki" [ref=e716] [cursor=pointer]:
+                  - /url: /search?sca_esv=8fbe2420859fd63f&q=EPAM+wiki&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ1QJ6BAhIEAE
+                  - generic [ref=e717]:
+                    - generic [ref=e722]: EPAM wiki
+                    - img [ref=e726]
+                - link "EPAM login" [ref=e731] [cursor=pointer]:
+                  - /url: /search?sca_esv=8fbe2420859fd63f&q=EPAM+login&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ1QJ6BAhHEAE
+                  - generic [ref=e732]:
+                    - generic [ref=e737]: EPAM login
+                    - img [ref=e741]
+                - link "EPAM employee count" [ref=e746] [cursor=pointer]:
+                  - /url: /search?sca_esv=8fbe2420859fd63f&q=EPAM+employee+count&sa=X&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ1QJ6BAhGEAE
+                  - generic [ref=e747]:
+                    - generic [ref=e752]: EPAM employee count
+                    - img [ref=e756]
+          - navigation [ref=e758]:
+            - heading "Page navigation" [level=1] [ref=e759]
+            - text: "1"
+            - link "Page 2" [ref=e762] [cursor=pointer]:
+              - /url: /search?q=epam&sca_esv=8fbe2420859fd63f&ei=OhnOaa6QM6qJjuMPwO-HuQg&start=10&sa=N&sstk=Af77f_cNXwO8jLqhtVaK3DwBfP9Z1cdsWUCFA2B9Pc0lvL23JXpJMdCwJVezBNtQYo5L2fRFbfAUxjoWd1qFQcZvM6RGfE5Ky1tUtQ&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ8tMDegQIDBAE
+              - text: "2"
+            - link "Page 3" [ref=e764] [cursor=pointer]:
+              - /url: /search?q=epam&sca_esv=8fbe2420859fd63f&ei=OhnOaa6QM6qJjuMPwO-HuQg&start=20&sa=N&sstk=Af77f_cNXwO8jLqhtVaK3DwBfP9Z1cdsWUCFA2B9Pc0lvL23JXpJMdCwJVezBNtQYo5L2fRFbfAUxjoWd1qFQcZvM6RGfE5Ky1tUtQ&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ8tMDegQIDBAG
+              - text: "3"
+            - link "Page 4" [ref=e766] [cursor=pointer]:
+              - /url: /search?q=epam&sca_esv=8fbe2420859fd63f&ei=OhnOaa6QM6qJjuMPwO-HuQg&start=30&sa=N&sstk=Af77f_cNXwO8jLqhtVaK3DwBfP9Z1cdsWUCFA2B9Pc0lvL23JXpJMdCwJVezBNtQYo5L2fRFbfAUxjoWd1qFQcZvM6RGfE5Ky1tUtQ&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ8tMDegQIDBAI
+              - text: "4"
+            - link "Page 5" [ref=e768] [cursor=pointer]:
+              - /url: /search?q=epam&sca_esv=8fbe2420859fd63f&ei=OhnOaa6QM6qJjuMPwO-HuQg&start=40&sa=N&sstk=Af77f_cNXwO8jLqhtVaK3DwBfP9Z1cdsWUCFA2B9Pc0lvL23JXpJMdCwJVezBNtQYo5L2fRFbfAUxjoWd1qFQcZvM6RGfE5Ky1tUtQ&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ8tMDegQIDBAK
+              - text: "5"
+            - link "Page 6" [ref=e770] [cursor=pointer]:
+              - /url: /search?q=epam&sca_esv=8fbe2420859fd63f&ei=OhnOaa6QM6qJjuMPwO-HuQg&start=50&sa=N&sstk=Af77f_cNXwO8jLqhtVaK3DwBfP9Z1cdsWUCFA2B9Pc0lvL23JXpJMdCwJVezBNtQYo5L2fRFbfAUxjoWd1qFQcZvM6RGfE5Ky1tUtQ&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ8tMDegQIDBAM
+              - text: "6"
+            - link "Page 7" [ref=e772] [cursor=pointer]:
+              - /url: /search?q=epam&sca_esv=8fbe2420859fd63f&ei=OhnOaa6QM6qJjuMPwO-HuQg&start=60&sa=N&sstk=Af77f_cNXwO8jLqhtVaK3DwBfP9Z1cdsWUCFA2B9Pc0lvL23JXpJMdCwJVezBNtQYo5L2fRFbfAUxjoWd1qFQcZvM6RGfE5Ky1tUtQ&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ8tMDegQIDBAO
+              - text: "7"
+            - link "Page 8" [ref=e774] [cursor=pointer]:
+              - /url: /search?q=epam&sca_esv=8fbe2420859fd63f&ei=OhnOaa6QM6qJjuMPwO-HuQg&start=70&sa=N&sstk=Af77f_cNXwO8jLqhtVaK3DwBfP9Z1cdsWUCFA2B9Pc0lvL23JXpJMdCwJVezBNtQYo5L2fRFbfAUxjoWd1qFQcZvM6RGfE5Ky1tUtQ&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ8tMDegQIDBAQ
+              - text: "8"
+            - link "Page 9" [ref=e776] [cursor=pointer]:
+              - /url: /search?q=epam&sca_esv=8fbe2420859fd63f&ei=OhnOaa6QM6qJjuMPwO-HuQg&start=80&sa=N&sstk=Af77f_cNXwO8jLqhtVaK3DwBfP9Z1cdsWUCFA2B9Pc0lvL23JXpJMdCwJVezBNtQYo5L2fRFbfAUxjoWd1qFQcZvM6RGfE5Ky1tUtQ&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ8tMDegQIDBAS
+              - text: "9"
+            - link "Page 10" [ref=e778] [cursor=pointer]:
+              - /url: /search?q=epam&sca_esv=8fbe2420859fd63f&ei=OhnOaa6QM6qJjuMPwO-HuQg&start=90&sa=N&sstk=Af77f_cNXwO8jLqhtVaK3DwBfP9Z1cdsWUCFA2B9Pc0lvL23JXpJMdCwJVezBNtQYo5L2fRFbfAUxjoWd1qFQcZvM6RGfE5Ky1tUtQ&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ8tMDegQIDBAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e780]:
+              - link "Next" [ref=e781] [cursor=pointer]:
+                - /url: /search?q=epam&sca_esv=8fbe2420859fd63f&ei=OhnOaa6QM6qJjuMPwO-HuQg&start=10&sa=N&sstk=Af77f_cNXwO8jLqhtVaK3DwBfP9Z1cdsWUCFA2B9Pc0lvL23JXpJMdCwJVezBNtQYo5L2fRFbfAUxjoWd1qFQcZvM6RGfE5Ky1tUtQ&ved=2ahUKEwiuleiD0c6TAxWqhGMGHcD3IYcQ8NMDegQIDBAW
+                - generic [ref=e783]: Next
+        - navigation
+      - complementary "Complementary results" [ref=e784]:
+        - heading "Complementary results" [level=2] [ref=e785]
+        - generic [ref=e786]:
+          - generic [ref=e793]:
+            - button "Thumbnail image for EPAM Systems" [ref=e797] [cursor=pointer]
+            - generic [ref=e799]:
+              - heading "EPAM Systems" [level=2] [ref=e802]
+              - generic [ref=e803]:
+                - generic [ref=e805]: Software development company
+                - button "More options for EPAM Systems" [ref=e811] [cursor=pointer]:
+                  - img "More options for EPAM Systems" [ref=e812]:
+                    - img [ref=e814]
+          - complementary "Featured results" [ref=e820]:
+            - generic [ref=e829]:
+              - generic [ref=e830]: EPAM Systems, Inc. is a U.S.-based global provider of information technology services and consulting. The company provides services in digital engineering, cloud transformation, artificial intelligence, and software development.
+              - generic [ref=e831]:
+                - text: "Source:"
+                - link "Wikipedia" [ref=e832] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/EPAM_Systems
+                  - generic [ref=e834]: Wikipedia
+    - contentinfo [ref=e835]:
+      - heading "Footer links" [level=1] [ref=e836]
+      - generic [ref=e840]:
+        - generic [ref=e842]:
+          - text: India
+          - generic [ref=e844]:
+            - button "302022, Jaipur, Rajasthan - From your IP address" [ref=e846] [cursor=pointer]:
+              - generic [ref=e847]: 302022, Jaipur, Rajasthan
+              - generic [ref=e849]:
+                - text: "-"
+                - generic [ref=e850]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e852] [cursor=pointer]: Update location
+        - generic [ref=e855]:
+          - link "Help" [ref=e856] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=e857] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e858] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=e859] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1
