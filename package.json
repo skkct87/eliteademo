@@ -1,0 +1,12 @@
+{
+
+  "scripts": {
+    
+    "boostrap": "alita-mcp bootstrap",
+    "tray-app": "alita-mcp tray",
+    "run-agent":"alita-mcp run --project-id 14403"
+  },
+  "dependencies": {
+    "python3": "^0.0.1"
+  }
+}

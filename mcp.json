@@ -1,0 +1,11 @@
+{
+    "servers": {
+      "Playwright Browser Automation": {
+        "type": "stdio",
+        "command": "npx",
+        "args": ["@playwright/mcp@latest"],
+        "stateful": true
+      }
+     
+} 
+}
